@@ -1,0 +1,198 @@
+Data Analysis Report
+YouTube Trending Videos Statistics 2026
+1. Introduction
+
+YouTube is one of the most popular video-sharing platforms in the world. Every day millions of users watch videos across different categories such as music, gaming, entertainment, education, and news. YouTube also provides a Trending section where the most popular videos at a specific time are displayed.
+
+The purpose of this project is to analyze the YouTube Trending Videos Stats 2026 dataset to understand video popularity, engagement patterns, and trending behavior across multiple countries. The dataset includes information about views, likes, dislikes, comments, and publishing details of videos that appeared in the trending section.
+
+This analysis helps us understand how different types of content perform and what factors contribute to a video's popularity.
+
+2. About the Dataset
+
+The dataset used for this project is called YouTube Trending Videos Stats 2026. It contains trending video information collected from the YouTube platform across multiple countries.
+
+The dataset was collected using the YouTube Data API v3, which provides access to YouTube's trending video data.
+
+The dataset contains 178,399+ records of trending videos from 11 different countries. Each country has its own CSV file containing trending video information.
+
+The dataset is useful for analyzing user engagement, trending patterns, and content popularity across different regions.
+
+3. Countries Included in the Dataset
+
+The dataset includes trending video data from the following countries:
+
+BR – Brazil
+CA – Canada
+DE – Germany
+FR – France
+GB – United Kingdom
+IN – India
+JP – Japan
+KR – South Korea
+MX – Mexico
+RU – Russia
+US – United States
+
+Each country has its own dataset file such as:
+
+BR_Trending.csv
+CA_Trending.csv
+IN_Trending.csv
+US_Trending.csv
+
+4. Dataset Size
+
+Total Records: 178,399+ rows
+
+Number of Files: 11 CSV files
+
+Dataset Size: Approximately 240 MB
+
+Each file contains trending video information including views, likes, dislikes, comments, and video metadata.
+
+5. Dataset Columns Description
+
+The dataset contains several important columns that describe each trending video.
+
+video_id
+This column contains the unique identifier of each YouTube video.
+
+trending_date
+This column shows the date when the video appeared in the YouTube trending list.
+
+title
+This column contains the title of the video.
+
+channel_title
+This column contains the name of the YouTube channel that uploaded the video.
+
+views
+This column represents the total number of views the video received.
+
+likes
+This column shows the number of likes the video received.
+
+dislikes
+This column contains the number of dislikes for the video.
+
+publish_time
+This column shows the original publishing time of the video.
+
+category_id
+This column represents the category of the video such as music, gaming, entertainment, etc.
+
+tags
+This column contains the tags associated with the video.
+
+comments
+This column shows the number of comments on the video.
+
+channel_id
+This column represents the unique ID of the channel.
+
+description
+This column contains the description of the video.
+
+6. Data Cleaning and Preparation
+
+Before performing the analysis, several preprocessing steps were carried out to ensure data quality.
+
+Missing values were checked and handled.
+
+Duplicate records were identified and removed.
+
+Date columns such as trending_date and publish_time were converted into proper date formats.
+
+Outliers in views and likes were analyzed to understand extremely popular videos.
+
+Column names were standardized for easier analysis.
+
+These steps help ensure that the dataset is accurate and suitable for analysis.
+
+7. Exploratory Data Analysis
+
+Exploratory Data Analysis (EDA) was performed to understand patterns and trends in the dataset.
+
+Views Distribution
+Most videos have moderate views, while a small number of videos receive extremely high views, indicating viral content.
+
+Likes and Engagement
+Videos with higher views tend to receive more likes and comments, showing a strong correlation between popularity and engagement.
+
+Popular Categories
+Categories such as Music, Gaming, Entertainment, and Film Trailers appear frequently in the trending list.
+
+Channel Performance
+Some channels appear multiple times in the trending dataset, indicating consistent content performance and strong audience engagement.
+
+Trending Over Time
+The number of trending videos increased significantly in recent years, especially between 2024 and 2026.
+
+8. Data Visualization
+
+To better understand the data, several visualizations were created.
+
+Top 10 Most Viewed Videos chart
+
+Views vs Likes Scatter Plot
+
+Top Channels by Number of Trending Videos
+
+Distribution of Video Views
+
+Trending Videos Over Time
+
+Category-wise Engagement Analysis
+
+These visualizations help identify patterns and insights in the dataset.
+
+The analysis was performed using tools such as Power BI and Python.
+
+9. Key Insights
+
+Music and gaming videos dominate the trending section.
+
+A small number of videos receive extremely high views compared to the majority.
+
+Channels with large subscriber bases tend to appear frequently in the trending list.
+
+Higher view counts usually lead to higher likes and comments.
+
+Trending video activity has increased significantly over time.
+
+10. Applications of the Dataset
+
+This dataset can be used for several data science and analytics applications.
+
+Trend prediction models
+
+YouTube content performance analysis
+
+Social media engagement studies
+
+Machine learning models for popularity prediction
+
+Digital marketing and influencer analytics
+
+11. Conclusion
+
+The YouTube Trending Videos Stats 2026 dataset provides valuable insights into how videos perform across different regions. By analyzing views, likes, comments, and other engagement metrics, we can identify patterns that influence video popularity.
+
+This analysis helps content creators, marketers, and researchers understand what type of content performs well and how audience engagement works on the YouTube platform.
+
+12. Tools Used
+
+Python
+Pandas
+Power BI
+Microsoft Excel
+
+
+
+
+
+
+================================================
+
+The analysis shows that the United States and India have the highest number of trending videos and total views. This indicates that these countries have very high YouTube activity and large audiences consuming video content.
