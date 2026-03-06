@@ -92,4 +92,8 @@ The insights from this analysis can help content creators, marketers, and resear
 - Social media marketing and influencer analysis  
 - Machine learning models for popularity prediction  
 - Trend prediction and analytics across countries
+- 
+
+
+<img width="882" height="691" alt="Image" src="https://github.com/user-attachments/assets/22de7a12-87bf-4e8c-b24d-85a55e017b0b" />
 
